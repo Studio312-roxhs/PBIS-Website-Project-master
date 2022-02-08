@@ -1,0 +1,31 @@
+/* css file for PBIS site */
+.largelogo{
+  height:auto;
+  max-width:370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+.largelogo {
+    max-width: 200px;
+  }
+}
+ul {
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.starr {
+  font-size: 32px;
+}
+#li-left {
+  margin-left: 25%;
+}
+.smalllogo {
+  display: none;
+}
+h1 {
+  text-align:center;
+}
