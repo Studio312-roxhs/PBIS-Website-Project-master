@@ -1,0 +1,160 @@
+/* css file for PBIS site */
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Oxygen:wght@300&family=PT+Serif&family=Special+Elite&family=Squada+One&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+.largelogo{
+  height:auto;
+  max-width:370px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 768px) {
+.largelogo {
+    max-width: 200px;
+  }
+}
+ul {
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul.starr {
+  font-size: 32px;
+  font-family: 'Special Elite';
+}
+#li-left {
+  margin-left: 25%;
+}
+.smalllogo {
+  display: none;
+}
+   .center{
+  align="center"
+  }
+  .carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+.maxheight {
+  max-height: 400px;
+  width: 300px;
+}
+
+.carousel-indicators{
+  filter:invert;
+
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #000000;
+  padding: 20px;
+
+}
+.left {
+  margin-left: 25%;
+}
+.margin {
+  margin-bottom: 15px;
+}
+.arimo {
+  font-family: Arimo;
+}
+.oxygen {
+  font-family:oxygen;
+}
+.pt-serif {
+  font-family: PT Serif;
+}
+.special-elite {
+  font-family: Special Elite;
+}
+.squada-one{
+  font-family: Squada One;
+}
+.pad-top {
+  margin-top: 10px;
+}
+.center-allign{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.bg-cce7ff {
+  background-color:#cce7ff;
+}
+h1.header
+{
+  font-family: 'Special Elite', cursive;
+  font-size: 175px;
+}
+
+h2.faq
+{
+  font-family: 'Oxygen', sans-serif;
+  color: #E56227;
+}
+
+h3.faq
+{
+  color: #E56227;
+}
+
+.spacer{
+  height:100px;
+  width:100%;
+}
+h2{
+  color:#E56227;
+}
+
+p{
+  color: #003559;
+}
+.spacer1{
+  font-size: 0;
+   height: 50px;
+   line-height: 0;
+}
+
+.spacer2{
+  font-size: 0;
+   height: 100px;
+   line-height: 0;
+}
+.left{
+text-align:left;
+align:left;
+}
+.right{
+text-align:right;
+align:right;
+
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding-left: 100px;
+}
+.media-height{
+  max-height: 260px;
+  width: 300px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.titlespacer{
+  padding-left: 100px;
+}
+.hide{
+  display: none;
+}
