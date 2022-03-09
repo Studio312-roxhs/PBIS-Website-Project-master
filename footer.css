@@ -5,8 +5,6 @@ width: 100%;
 height: 200px;
 background-color: #FEBC18;
 }
-
-
 body {
   margin: 0;
 }
@@ -30,4 +28,16 @@ body {
 {
   width: 25px;
   height: 25px;
+}
+a.foot:link {
+  color: #fff4e6;
+}
+a.foot:visited {
+  color: #fff4e6;
+}
+a.foot:active {
+  color: #cce7ff;
+}
+a.foot:hover {
+  color: #cce7ff;
 }
