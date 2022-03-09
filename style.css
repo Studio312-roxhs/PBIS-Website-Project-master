@@ -173,3 +173,7 @@ b {
 .text-indent {
    text-indent: 50px;
 }
+ul.points {
+  list-style-type: disc;
+  color: #003559;
+}
