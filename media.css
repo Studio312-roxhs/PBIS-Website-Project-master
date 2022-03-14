@@ -153,8 +153,15 @@ align:right;
   clear: both;
   display: table;
 }
-.titlespacer{
-  padding-left: 100px;
+@media screen and (min-width: 850px) {
+  .titlespacer{
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 849px) {
+  .titlespacer {
+    text-align: center;
+  }
 }
 .hide{
   display: none;
