@@ -1,0 +1,46 @@
+/* styles for the footer*/
+footer
+{
+width: 100%;
+height: 150px;
+background-color: #FEBC18;
+}
+body {
+  margin: 0;
+}
+
+.row{
+    /* allows the column divs to appear next to each other */
+    display:flex;
+}
+/* Create three equal columns that floats next to each other */
+.col-4{
+    padding: 50px;
+    height:150px;
+    width:100%;
+    margin:5px;
+
+
+    /* Add a margin around the div*/
+
+}
+.small
+{
+  width: 25px;
+  height: 25px;
+}
+a.foot:link {
+  color: #fff4e6;
+}
+a.foot:visited {
+  color: #fff4e6;
+}
+a.foot:active {
+  color: #cce7ff;
+}
+a.foot:hover {
+  color: #cce7ff;
+}
+.footer {
+  font-size: 15px;
+}
