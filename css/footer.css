@@ -3,7 +3,7 @@ footer
 {
 width: 100%;
 height: 150px;
-background-color: #FEBC18;
+background-color: #cce7ff;
 }
 body {
   margin: 0;
@@ -30,16 +30,16 @@ body {
   height: 25px;
 }
 a.foot:link {
-  color: #fff4e6;
+  color: #003559;
 }
 a.foot:visited {
-  color: #fff4e6;
+  color: #003559;
 }
 a.foot:active {
-  color: #cce7ff;
+  color: #fff4e6;
 }
 a.foot:hover {
-  color: #cce7ff;
+  color: #003559;
 }
 .footer {
   font-size: 15px;
