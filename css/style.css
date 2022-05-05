@@ -183,3 +183,6 @@ ul.points {
 .003559 {
   color: 003559:
 }
+.round {
+  border-radius: 10px;
+}
