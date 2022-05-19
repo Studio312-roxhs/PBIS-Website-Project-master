@@ -186,3 +186,13 @@ ul.points {
 .round {
   border-radius: 10px;
 }
+img.img-left {
+  float: left;
+  width: 30px;
+  height: auto;
+}
+img.img-right {
+ float: right;
+  width: 30px;
+  height:auto;
+}
