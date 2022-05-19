@@ -188,11 +188,11 @@ ul.points {
 }
 .img-left {
   float: left;
-  width: 30px;
-  height: auto;
+  max-width: 150px;
+  height: 50px;
 }
 .img-right {
  float: right;
-  width: 30px;
-  height:auto;
+  max-width: 150px;
+  height: 50px;
 }
